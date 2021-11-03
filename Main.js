@@ -1,10 +1,11 @@
-var producList;
+/*/*var productList: Products[];*/
+var productList;
 var Main = /** @class */ (function () {
     function Main() {
         for (var i = 0; i < 9; i++) {
             var categoryItem = new Categorias(i, "Categoria " + i);
             var productItem = new Products(i, "Producto " + i, categoryItem);
-            producList.push(productItem);
+            productList.push(productItem);
         }
     }
     Main.prototype.run = function () {
@@ -13,7 +14,7 @@ var Main = /** @class */ (function () {
         console.log(product.getProductInfo());
     };
     Main.prototype.getProducs = function () {
-        [].forEach.call(producList, function (producto) {
+        [].forEach.call(productList, function (producto) {
             console.log(producto);
         });
     };

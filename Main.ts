@@ -1,10 +1,11 @@
-let producList: Products[];
+/*/*var productList: Products[];*/
+let productList: Array<Products>;
 class Main {
     constructor() {
         for (var i = 0; i < 9; i++) {
             let categoryItem = new Categorias(i, "Categoria " + i);
             let productItem = new Products(i, "Producto " + i, categoryItem);
-            producList.push(productItem);
+            productList.push(productItem);
         }
     }
     run() {
@@ -13,7 +14,7 @@ class Main {
         console.log(product.getProductInfo());
     }
     getProducs() {
-        [].forEach.call(producList, function (producto) {
+        [].forEach.call(productList, function (producto) {
             console.log(producto);
         });
     }
