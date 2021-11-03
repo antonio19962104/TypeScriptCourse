@@ -1,6 +1,6 @@
+let producList: Products[];
 class Main {
     constructor() {
-        let producList: Products[];
         for (var i = 0; i < 9; i++) {
             let categoryItem = new Categorias(i, "Categoria " + i);
             let productItem = new Products(i, "Producto " + i, categoryItem);
@@ -13,6 +13,8 @@ class Main {
         console.log(product.getProductInfo());
     }
     getProducs() {
-        [].forEach.call(prod)
+        [].forEach.call(producList, function (producto) {
+            console.log(producto);
+        });
     }
 }

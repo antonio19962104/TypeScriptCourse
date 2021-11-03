@@ -1,6 +1,6 @@
+var producList;
 var Main = /** @class */ (function () {
     function Main() {
-        var producList;
         for (var i = 0; i < 9; i++) {
             var categoryItem = new Categorias(i, "Categoria " + i);
             var productItem = new Products(i, "Producto " + i, categoryItem);
@@ -13,7 +13,9 @@ var Main = /** @class */ (function () {
         console.log(product.getProductInfo());
     };
     Main.prototype.getProducs = function () {
-        console.log();
+        [].forEach.call(producList, function (producto) {
+            console.log(producto);
+        });
     };
     return Main;
 }());
