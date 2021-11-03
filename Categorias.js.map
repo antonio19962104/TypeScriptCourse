@@ -1,1 +1,1 @@
-{"version":3,"file":"Categorias.js","sourceRoot":"","sources":["Categorias.ts"],"names":[],"mappings":"AAAA;IAII,oBAAY,EAAE,EAAE,IAAI;QAChB,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;QACb,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACrB,CAAC;IACL,iBAAC;AAAD,CAAC,AARD,IAQC"}
+{"version":3,"file":"Categorias.js","sourceRoot":"","sources":["Categorias.ts"],"names":[],"mappings":"AAAA;IAII,oBAAY,EAAU,EAAE,IAAY;QAChC,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;QACb,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACrB,CAAC;IACL,iBAAC;AAAD,CAAC,AARD,IAQC"}
